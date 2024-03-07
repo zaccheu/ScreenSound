@@ -1,4 +1,4 @@
-﻿Banda queen = new Banda("queen");
+﻿Banda queen = new Banda("Queen");
 
 Album albumDoQueen = new Album();
 albumDoQueen.Nome = "A night at the opera";
@@ -16,6 +16,7 @@ albumDoQueen.AdicionarMusica(musica2);
 
 queen.AdicionarAlbum(albumDoQueen);
 queen.ExibirDiscografia();
+albumDoQueen.ExibirMusicasDoAlbum();
 
 
 
